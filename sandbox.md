@@ -46,15 +46,15 @@ Tokens/Noun with/Adpos POS/Noun
 
 ~~~ sdparse
 Mary got the red dress and I got the blue
-nsubj(got-1, Mary)
-det(dress, the-1)
-amod(dress, red)
-dobj(got-1, dress)
-cc(got-1, and)
-conj(got-1, got-2)
-nsubj(got-2, I)
-dobj(got-2, blue)
-det(blue, the-2)
+nsubj(got-1,Mary)
+det(dress,the-1)
+amod(dress,red)
+dobj(got-1,dress)
+cc(got-1,and)
+conj(got-1,got-2)
+nsubj(got-2,I)
+dobj(got-2,blue)
+det(blue,the-2)
 ~~~
 
 <div class="sd-parse">
