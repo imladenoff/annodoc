@@ -3,47 +3,6 @@ layout: entry
 title:  'Sandbox'
 ---
 
-# Sandbox
-
-This file is intended as a "sandbox" for trying out the editing
-features. Feel free to make changes by clicking the "edit page" link
-at the top. (You need to be logged in to GitHub and have write
-permissions to this GitHub repository for this to work.)
-
-----------
-
-# Some markdown
-
-* bulleted
-* list
-
-1. numbered
-2. list
-
-Link: [link text](http://www.example.com)
-
-# header 1
-
-## header 2
-
-### header 3
-
-*italics* and **bold**
-
-`inline code`
-
-----------
-
-# Some visualizations
-
-~~~ sdparse
-Just some tokens
-~~~
-
-~~~ sdparse
-Tokens/Noun with/Adpos POS/Noun
-~~~
-
 ~~~ sdparse
 Mary got the red dress and I got the blue
 nsubj(got-2,Mary)
@@ -55,6 +14,19 @@ conj(got-2,got-8)
 nsubj(got-8,I)
 dobj(got-8,blue)
 det(blue,the-9)
+~~~
+
+~~~ sdparse
+Mary got the red dress and I got the blue
+nsubj(got-2,Mary)
+det(dress,the-3)
+amod(dress,red)
+dobj(got-2,dress)
+cc(got-2,and)
+nsubj(got-8,I)
+conj(got-2,got-8)
+remnant(red,blue)
+remnant(the-3,the-9)
 ~~~
 
 <div class="sd-parse">
