@@ -46,7 +46,7 @@ Tokens/Noun with/Adpos POS/Noun
 
 ~~~ sdparse
 Mary got the red dress and I got the blue
-nusbj(got-1, Mary)
+nsubj(got-1, Mary)
 det(dress, the-1)
 amod(dress, red)
 dobj(got-1, dress)
