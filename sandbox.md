@@ -4,7 +4,7 @@ title:  'Sandbox'
 ---
 
 ~~~ sdparse
-Mary got the red dress and I got the blue
+Mary/NNP got/VBD the/DT red/JJ dress and I got the blue
 nsubj(got-2,Mary)
 det(dress,the-3)
 amod(dress,red)
